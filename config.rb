@@ -27,7 +27,7 @@ RbConfig::CONFIG["password"] = ""
 
 RbConfig::CONFIG["receive_prob"]    = 0.5
 
-RbConfig::CONFIG["greet_prob"]      = 1
+RbConfig::CONFIG["greet_prob"]      = 0.5
 
 RbConfig::CONFIG["implicit_prob"]   = 0.7
 
