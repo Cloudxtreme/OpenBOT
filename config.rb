@@ -4,7 +4,7 @@ require "rbconfig"
 
 # General
 
-RbConfig::CONFIG["log"]      = :info # :debug, :log, :info, :warn, :error and :fatal
+RbConfig::CONFIG["log"]      = :log # :debug, :log, :info, :warn, :error and :fatal
 RbConfig::CONFIG["delay"]    = 10000 # Max delay to respond
 
 # Server
