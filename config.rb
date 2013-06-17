@@ -25,7 +25,7 @@ RbConfig::CONFIG["password"] = ""
 
 # Plugins
 
-RbConfig::CONFIG["receive_prob"]    = 0.5
+RbConfig::CONFIG["receive_prob"]    = 0.8
 
 RbConfig::CONFIG["greet_prob"]      = 0.5
 
