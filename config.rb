@@ -6,6 +6,7 @@ require "rbconfig"
 
 RbConfig::CONFIG["log"]      = :log # :debug, :log, :info, :warn, :error and :fatal
 RbConfig::CONFIG["delay"]    = 10000 # Max delay to respond
+RbConfig::CONFIG["ignore"]   = ["ChanServ", "NickServ"] # Ignore private messages from these nicks
 
 # Server
 

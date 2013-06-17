@@ -44,7 +44,7 @@ end
 
   on :private do |msg|
     # Private message
-    if msg.user and msg.user.nick != @bot.nick and msg.user.nick != "NickServ"
+    if msg.user and msg.user.nick != @bot.nick and not RbConfig::CONFIG["ignore"].include? msg.user.nick
       delay
       @bot.handlers.dispatch(:interact, msg)
     end
