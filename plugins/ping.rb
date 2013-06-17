@@ -23,7 +23,7 @@ class Ping
     "No me puedo dormir...\nIs anybody here?",
     "I can't believe that -.-",
     "Me voy...",
-    "Todo está tan en silencio -.-",
+    "Todo está tan silencioso -.-",
     "Estoy escuchando música :)",
     "Cof cof..\nAnybody around?",
     "I'm back\nhola :)"
@@ -38,7 +38,7 @@ class Ping
   end
 
   def update(msg)
-    @last[msg.channel] = Time.now
+    @last[msg.channel.name] = Time.now
   end
 
   def ping

@@ -15,7 +15,7 @@ RbConfig::CONFIG["port"]     = 6667
 
 # Channels
 
-RbConfig::CONFIG["channels"] = ["#fing", "#openfing"]
+RbConfig::CONFIG["channels"] = ["#openfing", "#fing"]
 
 # Username
 
